@@ -3,13 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 const Home = () => {
-  return (
-    <main>
-      <Header />
-      <p>this is home</p>
-      <Footer />
-    </main>
-  );
+  return <p>this is home</p>;
 };
 
 export default Home;
