@@ -54,6 +54,10 @@ ul {
   list-style: none;
 }
 
+article {
+  padding-top: 2em;
+}
+
 @media screen and (max-width: 511px) {
   body {
     font-size: 12px;

@@ -1,0 +1,16 @@
+.imageContainer {
+  max-width: 300px;
+  max-height: 300px;
+  position: relative;
+  margin: auto;
+}
+
+.cards {
+  margin: 2em 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}

@@ -12,7 +12,12 @@ const Home = () => {
           priority="false"
         />
       </div>
-      <div>ceci est un nouveau texte</div>
+      <div className={classes.tips}>
+        {/* <div className={classes.tipContainers}>
+          <Image src={"/histoire.png"} width={200} height={150} />
+        </div> */}
+        <p>Bonjour à tous !</p>
+      </div>
     </div>
   );
 };

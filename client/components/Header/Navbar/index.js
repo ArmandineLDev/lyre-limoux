@@ -5,7 +5,8 @@ const NAVBAR_DATAS = [
   { name: "Présentation", link: "/presentation" },
   { name: "Agenda", link: "/agenda" },
   { name: "Contact", link: "/contact" },
-  { name: "Accès musicien", link: "/connection" },
+  { name: "Boutique", link: "/boutique" },
+  { name: "Accès musicien", link: "/connexion" },
 ];
 
 const Navbar = () => {

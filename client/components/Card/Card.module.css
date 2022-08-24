@@ -1,0 +1,22 @@
+.card {
+  border: solid 5px #751e32;
+  border-radius: 0.5em;
+  width: 50%;
+  min-height: 35em;
+  text-align: center;
+  padding: 1em;
+}
+.card h3 {
+  margin: 1em 0;
+}
+
+.imageContainer {
+  position: relative;
+  min-width: 10em;
+  height: 20em;
+}
+@media screen and (min-width: 992px) {
+  .card {
+    width: 25%;
+  }
+}

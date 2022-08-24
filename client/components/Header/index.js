@@ -34,7 +34,6 @@ const Header = () => {
         </svg>
       </div>
 
-      {console.log("isopen", { isOpen })}
       {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
       <div className={classes.webMenu}>
         <Web />

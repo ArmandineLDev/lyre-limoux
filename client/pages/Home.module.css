@@ -4,3 +4,13 @@
   max-height: 100vh;
   margin: auto;
 }
+.tips {
+  padding: 3em;
+}
+
+.tipsContainers {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border: solid 2px green;
+}
