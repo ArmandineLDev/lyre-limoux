@@ -16,7 +16,7 @@ body {
 
 body,
 button {
-  color: #751e32;
+  color: #350609;
 }
 
 h1,
@@ -27,6 +27,7 @@ h5,
 h6 {
   font-family: "Yeseva One", cursive, sans-serif;
   text-align: center;
+  color: #751e32;
 }
 
 p,
