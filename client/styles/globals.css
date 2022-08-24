@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cdccce;
+  font-family: "Poppins", sans-serif;
+  min-height: 10vw;
+  max-width: 1120px;
+  /* border: solid 2px chocolate; */
+  margin: auto;
+}
+
+body,
+button {
+  color: #751e32;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Yeseva One", cursive, sans-serif;
+  text-align: center;
+}
+
+p,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.4em;
+  margin-bottom: 1.5em;
+  margin-top: 1em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+@media screen and (max-width: 511px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 512px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 992px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  body {
+    font-size: 16px;
+  }
+}
+/* 334 512 768 1024 1281*/
