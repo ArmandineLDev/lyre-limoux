@@ -1,20 +1,10 @@
 import Image from "next/image";
 import classes from "./Agenda.module.css";
-import Card from "../../components/Card";
+import Card from "../../components/UI/Card";
+
+import agendaDatas from "../../datas/agenda_datas.json";
 
 const AGENDA_DATAS = [
-  {
-    title: "Concert des Fêtes de Septembre",
-    date: "04/09/2022",
-    text: "Comme chaque année, nous nous retrouverons pour fêter ensemble la rentrée",
-    photo: "/concert.png",
-  },
-  {
-    title: "Concert à Gignac",
-    date: "17/09/2022",
-    text: "Concert sur invitation de l'Harmonie de Gignac à 17h",
-    photo: "/concert.png",
-  },
   {
     title: "Défilé de l'armistice du 11 Novembre",
     date: "11/11/2022",
@@ -49,8 +39,8 @@ const Agenda = () => {
         />
       </div>
       <div className={classes.cards}>
-        {datas.map((data, index) => {
-          return <Card item={data} key={index}></Card>;
+        {agendaDatas.map((AgendaData, index) => {
+          return <Card item={AgendaData} key={index}></Card>;
         })}
       </div>
     </div>

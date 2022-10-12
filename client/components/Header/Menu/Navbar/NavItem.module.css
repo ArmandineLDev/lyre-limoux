@@ -1,0 +1,18 @@
+.item {
+  margin: 0 1em;
+  font-size: 1em;
+  font-style: oblique;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.item:hover {
+  background-color: #751e32;
+  color: #cdccce;
+}
+
+@media screen and (min-width: 990px) {
+  .item {
+    font-size: 1.2em;
+  }
+}

@@ -1,0 +1,11 @@
+.button {
+  display: flex;
+  margin: auto;
+  border-radius: 0.5em;
+  margin-top: 1em;
+}
+.agenda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

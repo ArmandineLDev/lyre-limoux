@@ -32,10 +32,6 @@ const Presentation = () => {
           plus internationalement “Limoux Brass Festival” figure parmi les
           grands festivals européens de la spécialité.
         </p>
-        <p>
-          La Lyre de Limoux est aujourd&apos;hui le grand acteur culturel de la
-          ville.
-        </p>
       </article>
 
       <article className={classes.article}>

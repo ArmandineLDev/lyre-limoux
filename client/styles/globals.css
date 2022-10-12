@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #cdccce;
+  background-color: #ffffff;
   font-family: "Poppins", sans-serif;
   min-height: 10vw;
   max-width: 1120px;
@@ -16,7 +16,7 @@ body {
 
 body,
 button {
-  color: #350609;
+  color: #500c10;
 }
 
 h1,

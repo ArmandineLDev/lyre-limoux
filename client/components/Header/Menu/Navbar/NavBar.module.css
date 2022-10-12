@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 992px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1em 0;
+    align-items: flex-end;
+  }
+}

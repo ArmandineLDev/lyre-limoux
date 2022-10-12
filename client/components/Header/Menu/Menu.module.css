@@ -1,0 +1,16 @@
+.burgerMenu {
+  width: 2em;
+  height: 2em;
+}
+.webMenu {
+  display: none;
+}
+@media screen and (min-width: 990px) {
+  .burgerMenu {
+    display: none;
+  }
+  .webMenu {
+    display: flex;
+    font-size: 0.8em;
+  }
+}

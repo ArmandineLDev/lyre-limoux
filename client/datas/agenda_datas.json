@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Défilé de l'armistice du 11 Novembre",
+    "thedate": "2022-11-11",
+    "text": "Défilé des les rue de Limoux à partir de 11h en l'honneur de la commémoration de l'armistice du 11 Novembre 1918",
+    "photo": "/fanfare_NB.png"
+  },
+  {
+    "title": "Grand Loto de la Lyre",
+    "thedate": "2022-11-11",
+    "text": "Nous nous retrouverons sous les halles à Limoux pour notre grand loto annuel.",
+    "photo": "/loto.png"
+  },
+  {
+    "title": "Concert de la Sainte Cécile",
+    "thedate": "2022-11-19",
+    "text": "Concert de la Lyre dans le cadre de la fête des Musiciens",
+    "photo": "/concert.png"
+  }
+]
