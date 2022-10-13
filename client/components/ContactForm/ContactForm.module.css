@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin: 40px auto;
+  padding: 5px;
+  box-shadow: 0 2px 2px #ccc;
+}
+.formGroup {
+  margin: 2em;
+  width: 100%;
+}
+
+.formControl,
+.formTextarea {
+  display: block;
+  margin: 0.4em 0;
+}
+
+.formControl {
+  width: 100%;
+  height: 1.5em;
+}
