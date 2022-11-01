@@ -7,7 +7,8 @@ const Navbar = () => {
   return (
     <div className={classes.navbar}>
       {menuItems.map((navItem, index) => {
-        return <NavItem item={navItem} key={index} />;
+        const depthLevel = 0;
+        return <NavItem item={navItem} key={index} depthLevel={depthLevel} />;
       })}
     </div>
   );

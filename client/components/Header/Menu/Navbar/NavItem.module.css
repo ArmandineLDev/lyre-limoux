@@ -7,10 +7,29 @@
   font-weight: 400;
 }
 
-.item:hover {
+.item:hover,
+.item button:hover {
   background-color: #751e32;
   color: #cdccce;
   font-weight: bold;
+}
+
+.item button {
+  border: none;
+  background-color: transparent;
+  font-size: inherit;
+  cursor: pointer;
+  width: 100%;
+  font-style: inherit;
+}
+.arrow::after {
+  content: "";
+  display: inline-block;
+  margin-left: 0.28em;
+  vertical-align: 0.09em;
+  border-top: 0.42em solid;
+  border-right: 0.32em solid transparent;
+  border-left: 0.32em solid transparent;
 }
 
 @media screen and (min-width: 990px) {

@@ -13,7 +13,7 @@ const Presentation = () => {
           l&apos;Union Orphéonique et le Réveil.{" "}
         </p>
         <p>
-          Aujourd&apos;hui, 80 musiciens de tous âges et de milieux sociaux
+          Aujourd&apos;hui, 70 musiciens de tous âges et de milieux sociaux
           différents, assument au sein de l’harmonie làapos;héritage d’une
           culture essentiellement musicale qui est l&apos;identité propre de la
           ville. Le brassage entre anciens et jeunes garantit à la fois le
