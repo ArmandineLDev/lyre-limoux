@@ -2,7 +2,7 @@ import classes from "./Presentation.module.css";
 
 const Presentation = () => {
   return (
-    <div>
+    <>
       <article className={classes.article}>
         <h2>Plus de 120 ans de passion pour la musique !</h2>
         <p>
@@ -129,7 +129,7 @@ const Presentation = () => {
           </table>
         </div>
       </article>
-    </div>
+    </>
   );
 };
 export default Presentation;

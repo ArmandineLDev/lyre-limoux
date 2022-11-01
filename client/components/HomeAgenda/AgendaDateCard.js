@@ -9,7 +9,6 @@ const AgendaDateCard = (props) => {
     theDate
   );
   const year = theDate.getFullYear();
-  console.log("month", month);
   return (
     <div className={classes.date}>
       <div className={classes.date_day}>{day}</div>{" "}
