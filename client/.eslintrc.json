@@ -7,9 +7,6 @@
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:react-hooks/recommended",
-    "airbnb-base",
-    "airbnb-base/rules/strict",
-    "airbnb/rules/react",
     "plugin:prettier/recommended"
   ],
   "env": {
