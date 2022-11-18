@@ -4,8 +4,8 @@ export const menuItems = [
     name: "L'orchestre",
     url: "/presentation",
     submenu: [
-      { name: "Musiciens & Bénévoles", url: "pupitres" },
-      { name: "Histoire", url: "histoire" },
+      { name: "Musiciens & Bénévoles", url: "/presentation" },
+      { name: "Histoire", url: "/presentation/histoire" },
     ],
   },
   { name: "Revue de Presse", url: "/presse" },

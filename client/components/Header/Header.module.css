@@ -2,14 +2,19 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-right: 2rem;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
-.titleNav {
+.logoTitle {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  flex-direction: row;
   width: 100%;
+}
+
+.title {
+  width: 100%;
+  margin: auto 0;
 }
 
 .logoContainer {
@@ -29,6 +34,9 @@
 
 @media screen and (min-width: 992px) {
   .titleNav {
+    flex-direction: column;
+  }
+  .header {
     flex-direction: column;
   }
 

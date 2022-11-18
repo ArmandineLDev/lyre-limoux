@@ -1,0 +1,28 @@
+.pupitreCard {
+  width: 75%;
+  border: solid 5px #751e32;
+  border-radius: 0 2em 0 2em;
+  box-shadow: 10px 10px 15px;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+.dropdownButton {
+  width: 100%;
+}
+
+.musicianBox {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  margin: 1em;
+}
+.musician {
+  text-align: center;
+  min-width: 45%;
+}
+@media screen and (min-width: 768px) {
+  .pupitreCard {
+    width: 30%;
+  }
+}

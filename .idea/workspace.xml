@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="962a666c-8355-458d-bb6b-12f3dc673bf7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/components/Header/Menu/Navbar/NavItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/Header/Menu/Navbar/NavItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/Header/Menu/Navbar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/Header/Menu/Navbar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/HomeAgenda/AgendaDateCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/HomeAgenda/AgendaDateCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/presentation.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/presentation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/Header/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +32,12 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/home/armandine/Formation/react-multilevel-dropdown-menu",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/home/armandine/.nvm/versions/node/v18.10.0/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -44,6 +51,7 @@
       <updated>1667209035407</updated>
       <workItem from="1667209036604" duration="77000" />
       <workItem from="1667278316810" duration="93000" />
+      <workItem from="1668072711156" duration="1180000" />
     </task>
     <servers />
   </component>

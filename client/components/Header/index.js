@@ -9,15 +9,19 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState("");
 
   return (
-    <header className={classes.header}>
-      <div className={classes.logoContainer}>
-        <Image src={"/dessin.svg"} layout="fill" priority="true" />
-      </div>
-      <div className={classes.titleNav}>
-        <h1>LYRE DE LIMOUX</h1>
+    <>
+      <header className={classes.header}>
+        <div className={classes.logoTitle}>
+          <div className={classes.logoContainer}>
+            <Image src={"/dessin.svg"} layout="fill" priority="true" />
+          </div>
+          <div className={classes.title}>
+            <h1>LYRE DE LIMOUX</h1>
+          </div>
+        </div>
         <Menu />
-      </div>
-    </header>
+      </header>
+    </>
   );
 };
 

@@ -1,20 +1,21 @@
 import Image from "next/image";
 import classes from "./Card.module.css";
 
-const Card = (props) => {
+const Card = ({ item }) => {
+  console.log("item", item);
   return (
     <div className={classes.card}>
       <div className={classes.imageContainer}>
         <Image
-          src={props.item.photo}
+          src={item.photo}
           width={100}
           height={100}
           layout="responsive"
           priority="false"
         />
       </div>
-      <h3>{props.item.title}</h3>
-      <p>{props.item.text}</p>
+      <h3>{item.title}</h3>
+      <p>{item.text}</p>
     </div>
   );
 };

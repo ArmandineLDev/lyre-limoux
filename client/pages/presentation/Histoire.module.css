@@ -1,0 +1,11 @@
+.article {
+  padding: 0 1.5em;
+}
+
+.presidentsTable {
+  margin: auto;
+}
+
+.presidentsTable td {
+  padding: 0.3em 1.5em;
+}
