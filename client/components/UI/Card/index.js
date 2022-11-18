@@ -2,7 +2,6 @@ import Image from "next/image";
 import classes from "./Card.module.css";
 
 const Card = ({ item }) => {
-  console.log("item", item);
   return (
     <div className={classes.card}>
       <div className={classes.imageContainer}>
