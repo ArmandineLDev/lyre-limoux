@@ -9,9 +9,9 @@ export const menuItems = [
     ],
   },
   { name: "Revue de Presse", url: "/presse" },
-  { name: "trucs", url: "/truc" },
+  // { name: "trucs", url: "/truc" },
   { name: "Agenda", url: "/agenda" },
   { name: "Contact", url: "/contact" },
   { name: "Boutique", url: "/boutique" },
-  { name: "Accès musicien", url: "/connexion" },
+  // { name: "Accès musicien", url: "/connexion" },
 ];
