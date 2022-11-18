@@ -1,25 +1,42 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
+import emailjs from "@emailjs/browser";
 
 import classes from "./ContactForm.module.css";
+import { useRouter } from "next/router";
 
 const ContactForm = () => {
+  const router = useRouter();
   const {
     register,
     reset,
-    handleSubmit,
     formState: { errors },
-    getValues,
   } = useForm({ mode: "onChange", criteriaMode: "all" });
 
-  const registerHandler = (datas) => {
-    console.log(datas);
-    reset();
+  const sendEmail = (e) => {
+    e.preventDefault();
+    console.log("e", e.target);
+
+    emailjs
+      .sendForm(
+        process.env.EMAIL_SERVICE,
+        process.env.EMAIL_TEMPLATE,
+        e.target,
+        process.env.EMAIL_USER
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
   return (
     <>
-      <form className={classes.form} onSubmit={handleSubmit(registerHandler)}>
+      <form className={classes.form} onSubmit={sendEmail}>
         <div className={classes.formGroup}>
           <label htmlFor="identiy">Votre nom et prénom</label>
           <input
@@ -30,7 +47,7 @@ const ContactForm = () => {
             className={classes.formControl}
             {...register("identity", { defaultValue: "", required: true })}
           />
-          <span className="error">
+          <span className={classes.error}>
             {errors.identity?.type === "required" &&
               "Merci de préciser vos noms et prénoms"}
           </span>
@@ -82,7 +99,9 @@ const ContactForm = () => {
             <span className="error">{errors.comment?.message}</span>
           )}
         </div>
-        <button type="submit">Envoyer</button>
+        <button className={classes.button} type="submit">
+          Envoyer
+        </button>
       </form>
     </>
   );

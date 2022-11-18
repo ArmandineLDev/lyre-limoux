@@ -9,3 +9,8 @@
 .contactPart {
   margin-top: 2em;
 }
+
+.contactInfo {
+  display: flex;
+  justify-content: space-around;
+}

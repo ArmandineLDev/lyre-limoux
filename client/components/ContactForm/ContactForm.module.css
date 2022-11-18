@@ -12,17 +12,34 @@
   box-shadow: 0 2px 2px #ccc;
 }
 .formGroup {
-  margin: 2em;
+  margin: 0.8em;
   width: 100%;
+}
+.formGroup input,
+.formGroup label {
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 .formControl,
 .formTextarea {
   display: block;
-  margin: 0.4em 0;
+  width: 100%;
 }
 
 .formControl {
   width: 100%;
   height: 1.5em;
+}
+
+.error {
+  color: red;
+  font-size: 1em;
+}
+
+.button {
+  font-size: 1em;
+  padding: 0.4em 0.8em;
+  font-weight: bold;
+  border-radius: 1em;
 }
