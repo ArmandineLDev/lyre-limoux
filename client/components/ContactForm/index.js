@@ -15,7 +15,6 @@ const ContactForm = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log("e", e.target);
 
     emailjs
       .sendForm(
@@ -26,7 +25,6 @@ const ContactForm = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
           reset();
         },
         (error) => {
