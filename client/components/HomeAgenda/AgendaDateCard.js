@@ -11,7 +11,7 @@ const AgendaDateCard = (props) => {
   const year = theDate.getFullYear();
   return (
     <div className={classes.date}>
-      <div className={classes.date_day}>{day}</div>{" "}
+      <div className={classes.date_day}>{day}</div>
       <div className={classes.date_month}>{month.toUpperCase()}</div>
       <div className={classes.date_year}>{year}</div>
     </div>
