@@ -1,4 +1,6 @@
-import Image from "next/image";
+"use client";
+
+import Image from "next/legacy/image";
 import { useState } from "react";
 import classes from "./Header.module.css";
 import Menu from "./Menu";

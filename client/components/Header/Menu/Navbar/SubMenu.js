@@ -7,7 +7,7 @@ const SubMenu = ({ submenus, dropdown }) => {
       {submenus.map((submenu, index) => (
         <li key={index} className={style.item}>
           <Link href={submenu.url}>
-            <a>{submenu.name}</a>
+            {submenu.name}
           </Link>
         </li>
       ))}

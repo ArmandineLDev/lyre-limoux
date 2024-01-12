@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import classes from "./Agenda.module.css";
 import Card from "../../components/UI/Card";
 

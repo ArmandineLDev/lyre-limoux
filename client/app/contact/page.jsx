@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 import ContactForm from "../../components/ContactForm";
 import classes from "./contact.module.css";

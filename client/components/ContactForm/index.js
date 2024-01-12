@@ -1,12 +1,14 @@
+"use client";
+
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
 
 import classes from "./ContactForm.module.css";
-import { useRouter } from "next/router";
+//import { useRouter } from "next/router";
 
 const ContactForm = () => {
-  const router = useRouter();
+  //const router = useRouter();
   const {
     register,
     reset,

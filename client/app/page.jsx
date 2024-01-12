@@ -1,11 +1,10 @@
-import Image from "next/image";
-import { Fragment } from "react";
+import Image from "next/legacy/image";
 import HomeAgenda from "../components/HomeAgenda";
 
 import classes from "./Home.module.css";
 const Home = () => {
   return (
-    <Fragment>
+    <>
       <p className={classes.bienvenue}>Bienvenue chez nous !</p>
       <div className={classes.imageContainer}>
         <Image
@@ -78,7 +77,7 @@ const Home = () => {
           <HomeAgenda />
         </aside>
       </section>
-    </Fragment>
+    </>
   );
 };
 

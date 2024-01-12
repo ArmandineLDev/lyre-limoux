@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import classes from "./Card.module.css";
 
 const Card = ({ item }) => {

@@ -23,31 +23,29 @@ const NavItem = ({ item, depthLevel }) => {
     };
   }, [dropdown]);
 
-  return (
-    <>
-      <Link href={item.url}>
-        {item.submenu ? (
-          <div className={classes.item} ref={ref}>
-            <button
-              type="button"
-              aria-haspopup="menu"
-              aria-expanded={dropdown ? true : false}
-              onClick={() => setDropdown((prev) => !prev)}
-            >
-              {item.name}{" "}
-              {depthLevel > 0 ? (
-                <span>&raquo;</span>
-              ) : (
-                <span className={classes.arrow} />
-              )}
-            </button>
-            <SubMenu submenus={item.submenu} dropdown={dropdown} />
-          </div>
-        ) : (
-          <a className={classes.item}>{item.name}</a>
-        )}
-      </Link>
-    </>
-  );
+  return <>
+    <Link href={item.url} legacyBehavior>
+      {item.submenu ? (
+        <div className={classes.item} ref={ref}>
+          <button
+            type="button"
+            aria-haspopup="menu"
+            aria-expanded={dropdown ? true : false}
+            onClick={() => setDropdown((prev) => !prev)}
+          >
+            {item.name}{" "}
+            {depthLevel > 0 ? (
+              <span>&raquo;</span>
+            ) : (
+              <span className={classes.arrow} />
+            )}
+          </button>
+          <SubMenu submenus={item.submenu} dropdown={dropdown} />
+        </div>
+      ) : (
+        <a className={classes.item}>{item.name}</a>
+      )}
+    </Link>
+  </>;
 };
 export default NavItem;
