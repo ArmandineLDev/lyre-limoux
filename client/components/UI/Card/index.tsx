@@ -11,7 +11,7 @@ const Card = ({ item }) => {
           width={100}
           height={100}
           layout="responsive"
-          priority="false"
+          priority
         />
       </div>
       <h3>{item.title}</h3>

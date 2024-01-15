@@ -13,7 +13,8 @@ const Home = () => {
           width={1200}
           height={450}
           layout="responsive"
-          priority="false"
+          // priority="false"
+          priority
         />
       </div>
       <section className={classes.section}>

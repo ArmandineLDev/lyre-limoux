@@ -13,7 +13,7 @@ const Agenda = () => {
           width={125}
           height={100}
           layout="responsive"
-          priority="false"
+          priority
         />
       </div>
       <div className={classes.cards}>

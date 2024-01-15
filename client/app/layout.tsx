@@ -12,12 +12,12 @@ const RootLayout = ({ children }) => {
   return (
     <html lang="fr">
       <body>
-        <container>
+        {/* <container */}
           <Header />
           <main>{children}</main>
 
           <Footer />
-        </container>
+        {/* </container> */}
       </body>
     </html>
   );
