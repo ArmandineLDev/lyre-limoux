@@ -1,32 +1,26 @@
 [
   {
-    "title": "Concert de la Sainte Cécile",
-    "thedate": "2022-11-19",
-    "text": "Concert de la Lyre dans le cadre de la fête des Musiciens",
-    "photo": "/concert.png"
-  },
-  {
-    "title": "Défilé de la Sainte Barbe",
-    "thedate": "2022-12-04",
-    "text": "Défilé des les rue de Limoux à partir de 11h en l'honneur de la commémoration de l'armistice du 11 Novembre 1918",
+    "title": "Défilé de l'armistice du 8 Mai 1945'",
+    "thedate": "2024-05-08",
+    "text": "Défilé dans les rues de Limoux",
     "photo": "/fanfare_NB.png"
   },
   {
-    "title": "Concert du Nouvel An",
-    "thedate": "2023-01-08",
-    "text": "Le grand évènement annuel limouxin de la Lyre : le convert du Nouvel An, à 15h au gymnase de l'Olympie.",
-    "photo": "/concert.png"
+    "title": "Défilé deu 14 Juillet",
+    "thedate": "2024-07-07",
+    "text": "Défilé des les rue de Limoux",
+    "photo": "/fanfare_NB.png"
   },
   {
-    "title": "Concert du Nouvel An",
-    "thedate": "2023-01-14",
-    "text": "Cette année la Lyre viendra fêter le Nouvel An à Couiza.",
-    "photo": "/concert.png"
+    "title": "Grand Loto de la Lyre",
+    "thedate": "2024-11-08",
+    "text": "Rendez-vous 20h30 à La Halle de Limoux place du Général Leclerc",
+    "photo": "/loto.png"
   },
   {
-    "title": "Concert du Nouvel An",
-    "thedate": "2023-01-15",
-    "text": "Comme tous les ans, nous jouerons également le concert du Nouvel An à Laure Minervois",
-    "photo": "/concert.png"
+    "title": "Défilé de l'armistice du 11 Novembre 1918",
+    "thedate": "2024-11-11",
+    "text": "Défilé dans les rues de Limoux",
+    "photo": "/fanfare_NB.png"
   }
 ]
